@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    {{{extra.head}}}
+    <title>{{page.title}} - {{project.title}}</title>
+    <meta charset="utf-8">
+    <meta name="description" content="{{page.meta.description}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body data-page="{{page.id}}">
+<div id="root">
+    {{{content}}}
+</div>
+{{{extra.body}}}
+<style type="text/css">
+    .clarke-header-content .editable-area h1 {
+        color: white !important;
+    }
+
+    .menu-sticky-top-nav {
+        background: rgba(0,0,0, .75) !important;
+    }
+
+    .menu-sticky-top-nav a {
+        color: rgba(255,255,255,.7) !important;
+    }
+
+    .menu-sticky-top-nav a:hover {
+        color: rgba(255,255,255,.9) !important;
+    }
+</style>
+</body>
+</html>
